@@ -1,0 +1,147 @@
+ /*  font-family: 'Poppins', sans-serif;  */
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    font-family: 'Poppins', sans-serif;
+     margin: 0 auto;
+ }
+ header{
+     background-color:#FFFBF0;
+ }
+ 
+nav img{
+     width: 245px;
+ }
+ button img{
+     width: 30px;
+ }
+
+ #bg-button{
+     width: 150px;
+     border: 1px solid transparent;
+     border-radius: 12px;
+     padding: 10px;
+     background-color:#A4BC46;
+     color: white;
+     font-size: 18px;  
+ }
+ #bg-button:hover{
+     background-color:#FABE4C;
+     transition: .5s;
+ }
+ .slider{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     height: 500px;
+     align-items: center;
+     grid-gap: 5px;
+     
+ }
+ .heading-image img{
+     width: 90%;
+ }
+ .slider h1{
+     font-size: 30px;
+     font-weight: 700;
+
+ }
+ .text-highlight{
+     color: #FABE4C;
+ }
+ /* card */
+ section .card{
+    border-radius: 5%;
+ }
+ section .card img{
+     width: 90%;
+     height: 250px;
+     background-color: #F1F1F1;
+     border-radius: 7%;
+ }
+
+#card-button img{
+    width: 25px;
+    height: 30px;
+}
+#card-button{
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 8px;
+    background-color:#A4BC46;
+    color: white;
+    font-size: 15px;
+    
+    
+}
+#card-button:hover{
+    background-color:#90af12;
+    transition: .5s;
+}
+section .col h1{
+    color: goldenrod;
+    font-size: 30px;
+}
+section .card{
+    box-shadow: 1px 1px 40px rgb(228, 225, 225);
+}
+.card{
+    overflow: hidden;
+}
+.card-image:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+/* info 
+*********/
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.full-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    padding: 5%;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(228, 228, 228);
+    margin-top: 5%;
+    padding: 5% 2% 2% 5%;
+    
+}
+.detail img{
+    width: 75px;
+    height: 75px;
+}
+.detail-image{
+    width: 100%;
+}
+/* contact */
+section .contact-color{
+    background-color: rgb(94, 224, 94);
+}
+section .background{
+    background-color: rgba(165, 82, 123, 0.1);
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+/* {
+    header .slider .heading{
+        display: block;
+    }
+    header .slider img{
+        display: block;
+    }
+} */
